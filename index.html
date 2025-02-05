@@ -11,40 +11,48 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- шапка сторінки -->
 
     <header>
-      <nav>
-        <ul>
-          <li><a href="">WebStudio</a></li>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <nav class="nav">
+        <div>
+          <a class="logo" href=""><span class="web">Web</span>Studio</a>
+        </div>
+        <ul class="list list-nav">
+          <li class="item item-nav"><a class="link" href="">Studio</a></li>
+          <li class="item item-nav"><a class="link" href="">Portfolio</a></li>
+          <li class="item item-nav"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <div>
-        <ul>
-          <li>info@devstudio.com</li>
-          <li>+11 (000) 111-11-11</li>
+      <address>
+        <ul class="list list-address">
+          <li class="link">info@devstudio.com</li>
+          <li class="link">+11 (000) 111-11-11</li>
         </ul>
-      </div>
+      </address>
     </header>
     <main>
       <!-- секція герой -->
 
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section section-hero">
+        <h1 class="title title-hero">Effective Solutions for Your Business</h1>
+        <button class="btn btn-hero" type="button">Order Service</button>
       </section>
       <!-- секція переваги -->
 
       <section>
         <h2>advandages</h2>
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="item">
             <h3>Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
@@ -80,6 +88,8 @@
         <ul>
           <li>
             <img
+              width="264"
+              height="260"
               src="./image/team/mark-guerrero.jpg"
               alt="portrair of mark guerrero"
             />
@@ -87,12 +97,20 @@
             <p>Product Designer</p>
           </li>
           <li>
-            <img src="./image/team/tom-ford.jpg" alt="portrair of tom ford" />
+            <img
+              width="264"
+              height="260"
+              src="./image/team/tom-ford.jpg"
+              alt="portrair of tom ford"
+            />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
+            width ="360" height ="300"
             <img
+              width="264"
+              height="260"
               src="./image/team/camila-garcia.jpg"
               alt="portrair of camila garcia"
             />
@@ -101,6 +119,8 @@
           </li>
           <li>
             <img
+              width="264"
+              height="260"
               src="./image/team/daniel-wilson.jpg"
               alt="portrair of daniel wilson"
             />
@@ -116,6 +136,8 @@
         <ul>
           <li>
             <img
+              width="360"
+              height="300"
               src="./image/portfolio/banking-app.jpg"
               alt="banking application"
             />
@@ -124,6 +146,8 @@
           </li>
           <li>
             <img
+              width="360"
+              height="300"
               src="./image/portfolio/cashless-payment.jpg"
               alt="They pay with their phone using a QR code"
             />
@@ -132,6 +156,8 @@
           </li>
           <li>
             <img
+              width="360"
+              height="300"
               src="./image/portfolio/meditation-app.jpg"
               alt="Notebook and phone"
             />
@@ -140,6 +166,8 @@
           </li>
           <li>
             <img
+              width="360"
+              height="300"
               src="./image/portfolio/taxi-service.jpg"
               alt="The taxi driver is driving"
             />
@@ -148,6 +176,8 @@
           </li>
           <li>
             <img
+              width="360"
+              height="300"
               src="./image/portfolio/screen-illustrations.jpg"
               alt="On the phone, there is an illustration of a ship and the moon"
             />
@@ -156,6 +186,8 @@
           </li>
           <li>
             <img
+              width="360"
+              height="300"
               src="./image/portfolio/online-courses.jpg"
               alt="The girl in headphones is holding a phone"
             />
