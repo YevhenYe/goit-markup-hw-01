@@ -1,1 +1,78 @@
-ul{list-style: none;}
+/* БАЗА */
+html{box-sizing: border-box;}
+
+*,
+*::before,
+*::after{box-sizing: inherit;}
+
+body{font-family: "Roboto", sans-serif;
+margin: 0;
+color:var(--title-color);
+letter-spacing: 0.02em;}
+
+ul {list-style: none;
+margin: 0;
+padding: 0;}
+
+a {text-decoration: none;}
+
+h1,h2,h3,h4,h5,h6,p{margin-top: 0;
+margin-bottom: 0;}
+
+button{cursor: pointer;}
+
+:root {--primary-brand:#4D5AE5;
+--active-ocean:#404BBF;
+--title-color:#2E2F42;
+--text-color:#434455;}
+
+/* #F4F4FD;
+  #f4f4fd;
+  #fff; */
+
+
+  /* HEADER */
+
+  /* LOGO */
+
+  .logo{font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  color: inherit;}
+
+  .web{color: var(--primary-brand);}
+
+  /* NAV */
+
+.item-nav .link {
+  font-weight: 500;
+  line-height: 1.5px;
+color: inherit;}
+
+/* ADDRESS */
+
+.list-address .link{color: var(--text-color);}
+
+
+/* MAIN */
+
+/* SECTION HERO */
+
+.section-hero{background-color: #2e2f42;}
+
+.title-hero{font-size: 56px;
+  line-height: 1,07px;
+  text-align: center;
+  color: #ffffff;}
+
+  .btn{background-color:var(--primary-brand);
+    font-weight: 500;
+  
+  
+    /* line-height: 24px; */
+    line-height: 1,5px;
+    letter-spacing: 0.04em;
+    color: #ffffff;}
