@@ -6,18 +6,26 @@ html{box-sizing: border-box;}
 *::after{box-sizing: inherit;}
 
 body{font-family: "Roboto", sans-serif;
-margin: 0;
+
 color:var(--title-color);
 letter-spacing: 0.02em;}
 
-ul {list-style: none;
-margin: 0;
-padding: 0;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;}
 
-a {text-decoration: none;}
 
-/* h1,h2,h3,h4,h5,h6,p{margin-top: 0;
-margin-bottom: 0;} */
+.list{ list-style: none;
+padding: 0;
+  margin: 0;}
+
+.link {text-decoration: none;}
 
 button{cursor: pointer;}
 
@@ -27,6 +35,13 @@ button{cursor: pointer;}
 --text-color:#434455;
 --background-color:#2e2f42;}
 
+.section{padding-top: 120px;
+padding-bottom: 120px;}
+
+.container{width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;}
 
   /* HEADER */
 
@@ -35,18 +50,33 @@ button{cursor: pointer;}
   .logo{font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-  color:var(--primary-brand)}
+  color:var(--primary-brand);
+  margin-right: 76px;
+}
 
-  .logo-header{color:#2e2f42;}
+  .logo-header{color:#2e2f42;
+  }
 
   /* NAV */
 
+  .box-nav{display: flex;}
+
+  .box-header{display: flex;
+  align-items: center;
+padding-top: 24px;
+padding-bottom: 24px;}
+  
+
+
+  .list-nav{display: flex;
+  gap: 40px;}
+
 .item-nav .link {
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
 color: inherit;}
 
 .item-nav .link:hover,
@@ -54,10 +84,22 @@ color: inherit;}
 
 /* ADDRESS */
 
-.list-address .link{color: var(--text-color);}
+.contacts {
+  display: flex;
+  margin-left: auto;}
 
-.list-address .link:hover,
-.list-address .link:focus{color: var(--active-ocean);}
+.list-contacts {
+  display: flex;
+  gap: 40px;
+}
+
+
+
+
+.item-contacts .link{color: var(--text-color);}
+
+.item-contacts .link:hover,
+.item-contacts .link:focus{color: var(--active-ocean);}
 
 
 /* MAIN */
@@ -66,33 +108,43 @@ color: inherit;}
 
 .section-hero{background-color:var(--background-color);}
 
-.title-hero{font-size: 56px;
-  line-height: 1.07px;
+.title-hero{
+  font-size: 56px;
+  line-height: 1.1;
   text-align: center;
   color: #ffffff;}
 
+
+
+ 
+  /* BUTTON */
+
+
   .btn{background-color:var(--primary-brand);
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;}
+
+    .btn:hover,
+    .btn:focus{background-color: var(--active-ocean);}
 
     /* SECTION ADVANDAGES */
 
     .title{
       font-weight: 500;
       font-size: 20px;
-      line-height: 1.2px;
+      line-height: 1.2;
       color:var(--title-color);}
 
-      .text{line-height: 1.5px;
+      .text{line-height: 1.5;
         color:var(--text-color);
       font-weight:400;}
 
         /* OUR TEAM */
 
         .title-first{font-size: 36px;
-        line-height: 1.1px;
+        line-height: 1.1;
       color: var(--title-color);}
 
         /* OUR PORTFOLIO */

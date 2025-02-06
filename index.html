@@ -23,193 +23,217 @@
     <!-- шапка сторінки -->
 
     <header>
-      <nav class="nav">
-        <div>
-          <a class="logo" href="./index.html"
+      <div class="container box-header">
+        <div class="box-nav">
+          <a class="link logo" href="./index.html"
             >Web<span class="logo-header">Studio</span></a
           >
+          <nav class="nav">
+            <ul class="list list-nav">
+              <li class="item item-nav"><a class="link" href="">Studio</a></li>
+              <li class="item item-nav">
+                <a class="link" href="">Portfolio</a>
+              </li>
+              <li class="item item-nav">
+                <a class="link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <ul class="list list-nav">
-          <li class="item item-nav"><a class="link" href="">Studio</a></li>
-          <li class="item item-nav"><a class="link" href="">Portfolio</a></li>
-          <li class="item item-nav"><a class="link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="list list-address">
-          <li class="link">info@devstudio.com</li>
-          <li class="link">+11 (000) 111-11-11</li>
-        </ul>
-      </address>
+        <address class="contacts">
+          <ul class="list list-contacts">
+            <li class="item item-contacts">
+              <a class="link" href="">info@devstudio.com</a>
+            </li>
+            <li class="item item-contacts">
+              <a class="link" href="">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- секція герой -->
 
       <section class="section section-hero">
-        <h1 class="title-hero">Effective Solutions for Your Business</h1>
-        <button class="btn btn-hero" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="title-hero">Effective Solutions for Your Business</h1>
+          <button class="btn btn-hero" type="button">Order Service</button>
+        </div>
       </section>
+
       <!-- секція переваги -->
 
-      <section>
-        <h2 class="visibility">advandages</h2>
-        <ul class="list">
-          <li class="item">
-            <h3 class="title">Strategy</h3>
-            <p class="text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="title">Punctuality</h3>
-            <p class="text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="title">Diligence</h3>
-            <p class="text">
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="title">Technologies</h3>
-            <p class="text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="visibility">advandages</h2>
+          <ul class="list">
+            <li class="item">
+              <h3 class="title">Strategy</h3>
+              <p class="text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Punctuality</h3>
+              <p class="text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Diligence</h3>
+              <p class="text">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Technologies</h3>
+              <p class="text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <!-- секція команда -->
-        <h2 class="title-first">Our Team</h2>
-        <ul>
-          <li>
-            <img
-              width="264"
-              height="260"
-              src="./image/team/mark-guerrero.jpg"
-              alt="portrair of mark guerrero"
-            />
-            <h3 class="title">Mark Guerrero</h3>
-            <p class="text">Product Designer</p>
-          </li>
-          <li>
-            <img
-              width="264"
-              height="260"
-              src="./image/team/tom-ford.jpg"
-              alt="portrair of tom ford"
-            />
-            <h3 class="title">Tom Ford</h3>
-            <p class="text">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              width="264"
-              height="260"
-              src="./image/team/camila-garcia.jpg"
-              alt="portrair of camila garcia"
-            />
-            <h3 class="title">Camila Garcia</h3>
-            <p class="text">Marketing</p>
-          </li>
-          <li>
-            <img
-              width="264"
-              height="260"
-              src="./image/team/daniel-wilson.jpg"
-              alt="portrair of daniel wilson"
-            />
-            <h3 class="title">Daniel Wilson</h3>
-            <p class="text">UI Designer</p>
-          </li>
-        </ul>
+
+      <!-- секція команда -->
+
+      <section class="section">
+        <div class="container">
+          <h2 class="title-first">Our Team</h2>
+          <ul>
+            <li>
+              <img
+                width="264"
+                height="260"
+                src="./image/team/mark-guerrero.jpg"
+                alt="portrair of mark guerrero"
+              />
+              <h3 class="title">Mark Guerrero</h3>
+              <p class="text">Product Designer</p>
+            </li>
+            <li>
+              <img
+                width="264"
+                height="260"
+                src="./image/team/tom-ford.jpg"
+                alt="portrair of tom ford"
+              />
+              <h3 class="title">Tom Ford</h3>
+              <p class="text">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                width="264"
+                height="260"
+                src="./image/team/camila-garcia.jpg"
+                alt="portrair of camila garcia"
+              />
+              <h3 class="title">Camila Garcia</h3>
+              <p class="text">Marketing</p>
+            </li>
+            <li>
+              <img
+                width="264"
+                height="260"
+                src="./image/team/daniel-wilson.jpg"
+                alt="portrair of daniel wilson"
+              />
+              <h3 class="title">Daniel Wilson</h3>
+              <p class="text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
+
       <!-- портфоліо -->
 
-      <section>
-        <h2 class="title-first">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
-              width="360"
-              height="300"
-              src="./image/portfolio/banking-app.jpg"
-              alt="banking application"
-            />
-            <h3 class="title">Banking App</h3>
-            <p class="text">App</p>
-          </li>
-          <li>
-            <img
-              width="360"
-              height="300"
-              src="./image/portfolio/cashless-payment.jpg"
-              alt="They pay with their phone using a QR code"
-            />
-            <h3 class="title">Cashless Payment</h3>
-            <p class="text">Marketing</p>
-          </li>
-          <li>
-            <img
-              width="360"
-              height="300"
-              src="./image/portfolio/meditation-app.jpg"
-              alt="Notebook and phone"
-            />
-            <h3 class="title">Meditation App</h3>
-            <p class="text">App</p>
-          </li>
-          <li>
-            <img
-              width="360"
-              height="300"
-              src="./image/portfolio/taxi-service.jpg"
-              alt="The taxi driver is driving"
-            />
-            <h3 class="title">Taxi Service</h3>
-            <p class="text">Marketing</p>
-          </li>
-          <li>
-            <img
-              width="360"
-              height="300"
-              src="./image/portfolio/screen-illustrations.jpg"
-              alt="On the phone, there is an illustration of a ship and the moon"
-            />
-            <h3 class="title">Screen Illustrations</h3>
-            <p class="text">Design</p>
-          </li>
-          <li>
-            <img
-              width="360"
-              height="300"
-              src="./image/portfolio/online-courses.jpg"
-              alt="The girl in headphones is holding a phone"
-            />
-            <h3 class="title">Online Courses</h3>
-            <p class="text">Marketing</p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="title-first">Our Portfolio</h2>
+          <ul>
+            <li>
+              <img
+                width="360"
+                height="300"
+                src="./image/portfolio/banking-app.jpg"
+                alt="banking application"
+              />
+              <h3 class="title">Banking App</h3>
+              <p class="text">App</p>
+            </li>
+            <li>
+              <img
+                width="360"
+                height="300"
+                src="./image/portfolio/cashless-payment.jpg"
+                alt="They pay with their phone using a QR code"
+              />
+              <h3 class="title">Cashless Payment</h3>
+              <p class="text">Marketing</p>
+            </li>
+            <li>
+              <img
+                width="360"
+                height="300"
+                src="./image/portfolio/meditation-app.jpg"
+                alt="Notebook and phone"
+              />
+              <h3 class="title">Meditation App</h3>
+              <p class="text">App</p>
+            </li>
+            <li>
+              <img
+                width="360"
+                height="300"
+                src="./image/portfolio/taxi-service.jpg"
+                alt="The taxi driver is driving"
+              />
+              <h3 class="title">Taxi Service</h3>
+              <p class="text">Marketing</p>
+            </li>
+            <li>
+              <img
+                width="360"
+                height="300"
+                src="./image/portfolio/screen-illustrations.jpg"
+                alt="On the phone, there is an illustration of a ship and the moon"
+              />
+              <h3 class="title">Screen Illustrations</h3>
+              <p class="text">Design</p>
+            </li>
+            <li>
+              <img
+                width="360"
+                height="300"
+                src="./image/portfolio/online-courses.jpg"
+                alt="The girl in headphones is holding a phone"
+              />
+              <h3 class="title">Online Courses</h3>
+              <p class="text">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- підвал сайту -->
     <footer class="footer">
-      <div>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-footer">Studio</span></a
-        >
+      <div class="container">
+        <div>
+          <a class="link logo" href="./index.html"
+            >Web<span class="logo-footer">Studio</span></a
+          >
+          <p class="text text-footer">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </div>
-      <p class="text text-footer">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
     </footer>
   </body>
 </html>
